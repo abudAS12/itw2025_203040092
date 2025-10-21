@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Belajar css</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+
+        h1,
+        h3 {
+            color: lightblue;
+            font-size: 50px;
+            font-family: "Bitcount Grid Single";
+            text-align: center;
+        }
+
+        h3 {
+            color: red;
+        }
+
+        /* .paragraf1 {
+            text-align: center;
+        } */
+
+        p {
+            color: green;
+        }
+
+        div p {
+            font-size: 30px;
+        }
+
+        h3+p {
+            text-align: center;
+        }
+
+        div+p {
+            font-family: arial;
+            text-align: right;
+        }
+    </style>
+
+    <body>
+        <!-- <font color="lightblue" face="arial" size="+4" align="center">
+            <h1>Hello Word</h1>
+        </font> -->
+
+        <h1 data-aos="fade-right">Hello World</h1>
+        <h3 data-aos="fade-left">Hello ITW</h3>
+
+        <p class="paragraf1">Paragraf 1</p>
+        <div>
+            <p>Paragraf 2</p>
+        </div>
+        <p>Paragraf 3</p>
+    </body>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</html>
